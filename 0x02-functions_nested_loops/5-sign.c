@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - Entry point
- * n: integer check
+ * @n: integer check
  * Return: 1 and prints + if n is gretter than zero
  * 0 and prints 0 if n is zero
  * -1 and prints _ if n less than zero
