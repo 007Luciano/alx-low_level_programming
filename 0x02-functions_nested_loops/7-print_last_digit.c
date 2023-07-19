@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - Entry point
- * 
+ *
  * @i: arguement passed for extraction of last digit
  * Return: n value of last digit
  */
