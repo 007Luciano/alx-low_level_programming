@@ -2,8 +2,7 @@
 #include <stdio.h>
 /**
  * print_numbers - Entry point
- * @c: starting point
- * Return: returns numbers
+ * Return: returns numbers 0 to 9
  */
 void print_numbers(void)
 {
