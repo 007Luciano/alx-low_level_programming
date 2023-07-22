@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_diagonal - Entry point
+ * print_diagonal - draws diagonal lines
  * @n: number of times \ should print
  */
 void print_diagonal(int n)
@@ -21,10 +21,10 @@ if (j == i)
 	_putchar('\\');
 else if (j < i)
 {
-	_putchar(' ');
+_putchar(' ');
 }
 }
-/*_putchar('\n');*/
+_putchar('\n');
 }
 }
 }
