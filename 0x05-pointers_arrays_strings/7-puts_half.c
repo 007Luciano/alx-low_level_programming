@@ -8,9 +8,9 @@
 void puts_half(char *str)
 {
 	int length = 0;
-	char c = str;
+	char *c = str;
 
-	while (c != '\0')
+	while (*c != '\0')
 	{
 		length++;
 		c++;
@@ -19,7 +19,7 @@ void puts_half(char *str)
 	int n = (length - 1) / 2;
 
 	c = str + n + 1;
-	while (c != '\0')
+	while (*c != '\0')
 	{
 		_putchar(c);
 		c++;
