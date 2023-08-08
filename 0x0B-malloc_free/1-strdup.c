@@ -11,13 +11,14 @@
 char *_strdup(char *str)
 {
 	char *aaa;
-	int i, j;
+	int i, r = 0;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
 
+	i = 0;
 	while (str[i] != '\0')
 	{
 		i++;
@@ -30,9 +31,9 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (j = 0; str[j]; j++)
+	for (r = 0; str[r]; r++)
 	{
-		aaa[j] = str[j];
+		aaa[r] = str[r];
 	}
 	return (aaa);
 }
