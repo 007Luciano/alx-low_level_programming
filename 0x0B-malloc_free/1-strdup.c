@@ -5,12 +5,12 @@
 /**
  * _strdup - returns a pointer to a newly allocated space in memory
  * @str: char
- * Return: s or NULL
+ * Return: aaa or NULL
  */
 
 char *_strdup(char *str)
 {
-	char *s;
+	char *aaa;
 	int i, j;
 
 	if (str == NULL)
@@ -23,16 +23,16 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	s = malloc(sizeof(char) * (i + 1));
+	aaa = malloc(sizeof(char) * (i + 1));
 
-	if (s == NULL)
+	if (aaa == NULL)
 	{
 		return (NULL);
 	}
 
 	for (j = 0; str[j]; j++)
 	{
-		s[j] = str[j];
+		aaa[j] = str[j];
 	}
-	return (s);
+	return (aaa);
 }
